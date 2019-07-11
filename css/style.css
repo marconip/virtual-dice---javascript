@@ -1,0 +1,81 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    background: url("https://images2.imgbox.com/c5/42/PPg1Mnjk_o.jpg") top center;
+    background-color: #111;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 490px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto 0px auto;
+    background: #000;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+strong {
+    font-family: 'arial';
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #000;
+    margin: 0px;
+    position: relative;
+    bottom: 255px;
+    left: 0px;
+}
+
+img {
+    width: 256px;
+    height: auto;
+}
+
+select {
+    width: 120px;
+    color: lawngreen;
+    line-height: 2.0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: .5rem;
+    padding: .5rem 1rem;
+    border: 1px solid lawngreen;
+    border-radius: .25rem;
+    background: #000;
+    outline: none;
+}
+
+button {
+    color: #000;
+    line-height: 2.0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: .5rem;
+    padding: .50rem 1rem;
+    border: 0px;
+    border-radius: .25rem;
+    background-color: lawngreen;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: green;
+}
+
+button:active {
+    background: white;
+}
